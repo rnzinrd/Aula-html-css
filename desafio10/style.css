@@ -1,0 +1,169 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'fonte01' ;
+    src: url(__MACOSX/fontes/._idroid.otf)format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family:'fonte';
+    src: url('fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+
+body{
+    margin: 0%;
+   
+    background-color: #C5EBD6;}
+
+header{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 20px;
+    padding-bottom: 10px;
+   background-image: linear-gradient(to top,darkgreen,lightgreen);
+    color: white;
+    font-family: 'fonte01';
+}
+header>h1{
+    text-align: center;
+    text-shadow: 0px 0px 2px black;
+    
+    
+    
+}
+header>p{
+    text-align: center;
+    text-shadow: 0px 0px 2px black;
+}
+nav>a{
+   margin-left:10px;
+   text-decoration: none;
+   padding: 10px;
+   color: white;
+   font-weight: bold;
+}
+nav>a:hover{
+background-color: darkgreen;
+color: lightgreen;
+border-radius: 5px;
+
+}
+h2,h3{
+    color: darkgreen;
+    font-family: 'fonte';
+    text-align: left;
+    margin-left:15px ;
+   
+    padding-left: 5px;}
+    
+
+h1{
+    color: white;
+    font-size: 2em;
+}
+h2{font-size: 1.5em;}
+h3{font-size: 1.0em;
+     background-image:linear-gradient(to right, lightgreen,white);}
+
+section{
+    background-color: white;
+    text-align: left;
+    max-width: 800px;
+    min-width: 250px;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    display: block;
+    
+    
+}
+
+section>p{
+    text-align: left;
+    margin: 20px ;
+    text-indent: 20px;
+}
+.videox{
+    background-color: green;
+    position: relative;
+    padding-bottom: 56.25%;
+    
+    
+    
+}
+.videox iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 92%;
+    height: 92%;
+    }
+
+.Lista{
+
+    margin-right: 150px;
+   
+  display:inline-block
+  
+
+}
+.listas{
+    background-color: lightgreen;
+    border-radius: 10px;
+    text-align: left;
+    
+
+}
+.listas>h4{
+    background-color: darkgreen;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px ;
+    text-align: left;
+    padding: 05px;
+    
+    
+}
+ul{list-style-type: '\2714\00a0\00a0';}
+
+
+
+
+.txt{
+    text-align: left;
+    margin: 20px ;
+    text-indent: 20px;
+    padding: 10px;
+    
+}
+footer{
+    background-color: green;
+    text-align: center;
+    font-weight: bold;
+    padding: 5px;
+    margin-top: 20px;
+
+}
+      
+
+    
+
+
+
+
+
+
+   
+
+
+
+
+
+
+
+
+
