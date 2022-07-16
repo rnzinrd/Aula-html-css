@@ -73,6 +73,7 @@ h3{font-size: 1.0em;
 section{
     background-color: white;
     text-align: left;
+    
     max-width: 800px;
     min-width: 250px;
     text-align: center;
